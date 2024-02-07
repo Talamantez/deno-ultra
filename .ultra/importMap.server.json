@@ -1,0 +1,34 @@
+{
+  "imports": {
+    "./server.tsx": "./server.js",
+    "./src/app.tsx": "./src/app.fee59e2c.js",
+    "./src/react-query/query-client.ts": "./src/react-query/query-client.bf714b2f.js",
+    "./src/react-query/useDehydrateReactQuery.tsx": "./src/react-query/useDehydrateReactQuery.61bd4c60.js",
+    "./src/twind/twind.config.ts": "./src/twind/twind.config.d058d3ff.js",
+    "./src/twind/twind.ts": "./src/twind/twind.344ef886.js",
+    "https://deno.land/": "./vendor/server/deno.land/",
+    "https://esm.sh/": "./vendor/server/esm.sh/",
+    "react/jsx-runtime": "./vendor/server/esm.sh/stable/react@18.2.0/denonext/jsx-runtime.js",
+    "ultra/server.ts": "./vendor/server/deno.land/x/ultra@v2.3.8/server.ts",
+    "ultra/stream.ts": "./vendor/server/deno.land/x/ultra@v2.3.8/stream.ts",
+    "@tanstack/react-query": "./vendor/server/esm.sh/v135/@tanstack/react-query@4.2.3/X-ZS9yZWFjdA/denonext/react-query.mjs",
+    "ultra/hooks/use-asset.js": "./vendor/server/deno.land/x/ultra@v2.3.8/hooks/use-asset.js",
+    "@twind/core": "./vendor/server/esm.sh/v135/@twind/core@1.0.1/denonext/core.mjs",
+    "ultra/hooks/use-server-inserted-html.js": "./vendor/server/deno.land/x/ultra@v2.3.8/hooks/use-server-inserted-html.js",
+    "@twind/preset-autoprefix": "./vendor/server/esm.sh/v135/@twind/preset-autoprefix@1.0.1/denonext/preset-autoprefix.mjs",
+    "@twind/preset-tailwind": "./vendor/server/esm.sh/v135/@twind/preset-tailwind@1.0.1/X-ZS8q/denonext/preset-tailwind.mjs",
+    "react": "./vendor/server/esm.sh/stable/react@18.2.0/denonext/react.mjs",
+    "react-dom/server": "./vendor/server/esm.sh/v135/react-dom@18.2.0/denonext/server.js"
+  },
+  "scopes": {
+    "./vendor/server/deno.land/": {
+      "/std@0.176.0/": "./vendor/server/deno.land/std@0.176.0/",
+      "/std@0.97.0/": "./vendor/server/deno.land/std@0.97.0/",
+      "/x/": "./vendor/server/deno.land/x/"
+    },
+    "./vendor/server/esm.sh/": {
+      "/stable/": "./vendor/server/esm.sh/stable/",
+      "/v135/": "./vendor/server/esm.sh/v135/"
+    }
+  }
+}

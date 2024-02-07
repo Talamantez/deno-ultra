@@ -1,0 +1,2 @@
+import{jsx as _jsx}from"react/jsx-runtime";import hydrate from"ultra/hydrate.js";import App from"./src/app.tsx";// React Query
+import{Hydrate,QueryClientProvider}from"@tanstack/react-query";import{queryClient}from"./src/react-query/query-client.ts";function ClientApp(){return /*#__PURE__*/_jsx(QueryClientProvider,{client:queryClient,children:/*#__PURE__*/_jsx(Hydrate,{state:__REACT_QUERY_DEHYDRATED_STATE,children:/*#__PURE__*/_jsx(App,{})})});}hydrate(document,/*#__PURE__*/_jsx(ClientApp,{}));
